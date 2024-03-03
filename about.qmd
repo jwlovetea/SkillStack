@@ -10,10 +10,3 @@ About this site
 1 + 2
 ```
 
-
-```{python}
-import polars as pl
-
-data = pl.read_csv("data.csv")
-data.describe()
-```
