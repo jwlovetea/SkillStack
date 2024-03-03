@@ -1,0 +1,12 @@
+---
+title: "Links"
+---
+
+
+# Python and LLMs
+
+[Simon Willison's blog](https://simonwillison.net/)
+
+# R
+
+# English
