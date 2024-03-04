@@ -10,3 +10,11 @@ title: "Links"
 # R
 
 # English
+
+# Quarto
+
+I want to have `blog` section within this website and here is a reference:
+
+- [from Quarto Gallery](https://realworlddatascience.net/case-studies/)
+
+- [Github](https://github.com/realworlddatascience/realworlddatascience.github.io/blob/main/case-studies/index.qmd)
