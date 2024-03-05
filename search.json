@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nMar 5, 2024\n\n\nLearn python OOP 01\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "SkillStack",
@@ -19,5 +26,12 @@
     "title": "Links",
     "section": "",
     "text": "Python and LLMs\nSimon Willison’s blog\n\n\nR\n\n\nEnglish\n\n\nQuarto\nI want to have blog section within this website and here is a reference:\n\nfrom Quarto Gallery\nGithub"
+  },
+  {
+    "objectID": "blog/python_OOP_01.html",
+    "href": "blog/python_OOP_01.html",
+    "title": "Learn python OOP 01",
+    "section": "",
+    "text": "Development Steps\n\nWriting down the objects on paper\nWriting a class for each object\nWriting methods for each class\nCalling the classes and their methods"
   }
 ]
