@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "blog/python_OOP_01.html",
+    "href": "blog/python_OOP_01.html",
+    "title": "Learn python OOP 01",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nMar 5, 2024\n\n\nLearn python OOP 01\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SkillStack",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Development Steps\n\nWriting down the objects on paper\nWriting a class for each object\nWriting methods for each class\nCalling the classes and their methods"
   },
   {
     "objectID": "about.html",
@@ -21,6 +14,20 @@
     "text": "About this site\n\n1 + 2\n\n3"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SkillStack",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nMar 9, 2024\n\n\n随想\n\n\n\n\nMar 5, 2024\n\n\nLearn python OOP 01\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "links.html",
     "href": "links.html",
     "title": "Links",
@@ -28,10 +35,10 @@
     "text": "Python and LLMs\nSimon Willison’s blog\n\n\nR\n\n\nEnglish\n\n\nQuarto\nI want to have blog section within this website and here is a reference:\n\nfrom Quarto Gallery\nGithub"
   },
   {
-    "objectID": "blog/python_OOP_01.html",
-    "href": "blog/python_OOP_01.html",
-    "title": "Learn python OOP 01",
+    "objectID": "blog/random_thoughts.html",
+    "href": "blog/random_thoughts.html",
+    "title": "随想",
     "section": "",
-    "text": "Development Steps\n\nWriting down the objects on paper\nWriting a class for each object\nWriting methods for each class\nCalling the classes and their methods"
+    "text": "写代码简单, 但写好代码很难\n\n\n\n\n\n\nNote\n\n\n\n\nAny fool can write code that a computer can understand. Good programmers write code that humans can understand. - Martin Fowler\n\n\n\n\n\nProgrammers Don’t Read Books – But You Should\nhttps://blog.codinghorror.com/programmers-dont-read-books-but-you-should/\n\n\n编程的精髓是“创造”\n\n\n单元测试很重要\n\n\n狗屁下载工具\nhttps://github.com/GopeedLab/gopeed\n\n\n言论\n\n\n\n\n\n\n\n如果你没有时间集中学习新知识, 那么就花时间复习已经学习过的内容 - Hacker News"
   }
 ]

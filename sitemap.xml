@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jwlovetea.github.io/SkillStack/blog.html</loc>
-    <lastmod>2024-03-05T01:57:32.222Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jwlovetea.github.io/SkillStack/index.html</loc>
-    <lastmod>2024-03-05T01:57:32.222Z</lastmod>
+    <loc>https://jwlovetea.github.io/SkillStack/blog/python_OOP_01.html</loc>
+    <lastmod>2024-03-09T03:18:29.327Z</lastmod>
   </url>
   <url>
     <loc>https://jwlovetea.github.io/SkillStack/about.html</loc>
-    <lastmod>2024-03-05T01:57:32.222Z</lastmod>
+    <lastmod>2024-03-09T03:18:29.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jwlovetea.github.io/SkillStack/index.html</loc>
+    <lastmod>2024-03-09T03:18:29.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jwlovetea.github.io/SkillStack/blog.html</loc>
+    <lastmod>2024-03-09T03:18:29.327Z</lastmod>
   </url>
   <url>
     <loc>https://jwlovetea.github.io/SkillStack/links.html</loc>
-    <lastmod>2024-03-05T01:57:32.222Z</lastmod>
+    <lastmod>2024-03-09T03:18:29.327Z</lastmod>
   </url>
   <url>
-    <loc>https://jwlovetea.github.io/SkillStack/blog/python_OOP_01.html</loc>
-    <lastmod>2024-03-05T01:57:32.222Z</lastmod>
+    <loc>https://jwlovetea.github.io/SkillStack/blog/random_thoughts.html</loc>
+    <lastmod>2024-03-09T03:18:29.327Z</lastmod>
   </url>
 </urlset>
