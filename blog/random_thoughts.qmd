@@ -1,0 +1,32 @@
+---
+title: "随想"
+date: "2024-03-09"
+categories:
+    - coding
+    - thoughts
+---
+
+# 写代码简单, 但写好代码很难
+
+::: {.callout-note}
+
+> Any fool can write code that a computer can understand. Good programmers write code that humans can understand. - Martin Fowler
+:::
+
+# Programmers Don't Read Books -- But You Should
+
+<https://blog.codinghorror.com/programmers-dont-read-books-but-you-should/>
+
+# 编程的精髓是“创造”
+
+# 单元测试很重要
+
+# 狗屁下载工具
+
+<https://github.com/GopeedLab/gopeed>
+
+# 言论
+
+::: {.callout}
+> 如果你没有时间集中学习新知识, 那么就花时间复习已经学习过的内容 - Hacker News
+:::
