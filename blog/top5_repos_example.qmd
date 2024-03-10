@@ -1,0 +1,78 @@
+---
+title: "Github API and functions"
+date: "2024-03-10"
+categories:
+    - python
+    - API
+    - Functions
+---
+
+
+# Top 5 repos using {keyword} search
+
+```{python}
+import requests
+import json
+
+
+def search_github_repos(keyword):
+    url = (
+        f"https://api.github.com/search/repositories?q={keyword}&sort=stars&order=desc"
+    )
+    response = requests.get(
+        url,
+        verify=False,
+    )
+    if response.status_code == 200:
+        return json.loads(response.content)
+    else:
+        return None
+
+
+repos = search_github_repos("python")
+if repos is not None:
+    print("Top 5 repositories sorted by stars:")
+    for i, repo in enumerate(repos["items"][:5]):
+        print(f"{i+1}. {repo['name']} with {repo['stargazers_count']} stars")
+else:
+    print("Failed to fetch repositories.")
+
+
+
+```
+
+
+# Top 5 repos using {keyword} search - with `params`
+```{python}
+import requests
+import json
+
+
+def search_github_repos(keyword):
+    url = "https://api.github.com/search/repositories"
+    params = {"q": keyword, "sort": "stars", "order": "desc"}
+    response = requests.get(
+        url,
+        params=params,
+        verify=False,
+    )
+    if response.status_code == 200:
+        return json.loads(response.content)
+    else:
+        return None
+
+
+repos = search_github_repos("python")
+if repos is not None:
+    print("Top 5 repositories sorted by stars:")
+    for i, repo in enumerate(repos["items"][:5]):
+        print(f"{i+1}. {repo['name']} with {repo['stargazers_count']} stars")
+else:
+    print("Failed to fetch repositories.")
+
+```
+
+
+# 更好的抽象
+
+参照《Python工匠》第7章7.3.2 (一个函数只包含一层抽象)

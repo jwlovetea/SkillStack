@@ -17,6 +17,14 @@ categories:
 
 <https://blog.codinghorror.com/programmers-dont-read-books-but-you-should/>
 
+推荐书目:
+
+- Code Complete 2
+- Don't Make Me Think
+- Peopleware
+- The Pragmatic Programmer
+- Facts and Fallacies of Software Engineering
+
 # 编程的精髓是“创造”
 
 # 单元测试很重要
@@ -30,3 +38,19 @@ categories:
 ::: {.callout}
 > 如果你没有时间集中学习新知识, 那么就花时间复习已经学习过的内容 - Hacker News
 :::
+
+# 汇编语言入门
+
+<http://www.egr.unlv.edu/~ed/assembly64.pdf>
+
+# Linux 系统书籍
+
+《鸟哥的Linux私房菜》
+
+
+Top 5 repositories sorted by stars:
+1. system-design-primer with 248492 stars
+2. awesome-python with 200438 stars
+3. tensorflow with 181207 stars
+4. Python with 176400 stars
+5. CS-Notes with 171134 stars
