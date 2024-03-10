@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blog/top5_repos_example.html",
       "/blog/random_thoughts.html",
       "/blog/python_OOP_01.html"
     ]
