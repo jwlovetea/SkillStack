@@ -1,24 +1,17 @@
 [
   {
-    "objectID": "blog/python_OOP_01.html",
-    "href": "blog/python_OOP_01.html",
-    "title": "Learn python OOP 01",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Development Steps\n\nWriting down the objects on paper\nWriting a class for each object\nWriting methods for each class\nCalling the classes and their methods"
+    "text": "About this site\n\n1 + 2\n\n3"
   },
   {
     "objectID": "blog/top5_repos_example.html",
     "href": "blog/top5_repos_example.html",
     "title": "Github API and functions",
     "section": "",
-    "text": "Top 5 repos using {keyword} search\n\nimport requests\nimport json\n\n\ndef search_github_repos(keyword):\n    url = (\n        f\"https://api.github.com/search/repositories?q={keyword}&sort=stars&order=desc\"\n    )\n    response = requests.get(\n        url,\n        verify=False,\n    )\n    if response.status_code == 200:\n        return json.loads(response.content)\n    else:\n        return None\n\n\nrepos = search_github_repos(\"python\")\nif repos is not None:\n    print(\"Top 5 repositories sorted by stars:\")\n    for i, repo in enumerate(repos[\"items\"][:5]):\n        print(f\"{i+1}. {repo['name']} with {repo['stargazers_count']} stars\")\nelse:\n    print(\"Failed to fetch repositories.\")\n\n/opt/hostedtoolcache/Python/3.11.8/x64/lib/python3.11/site-packages/urllib3/connectionpool.py:1103: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.github.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings\n  warnings.warn(\n\n\nTop 5 repositories sorted by stars:\n1. system-design-primer with 248497 stars\n2. awesome-python with 200442 stars\n3. tensorflow with 181209 stars\n4. Python with 176402 stars\n5. CS-Notes with 171136 stars\n\n\n\n\nTop 5 repos using {keyword} search - with params\n\nimport requests\nimport json\n\n\ndef search_github_repos(keyword):\n    url = \"https://api.github.com/search/repositories\"\n    params = {\"q\": keyword, \"sort\": \"stars\", \"order\": \"desc\"}\n    response = requests.get(\n        url,\n        params=params,\n        verify=False,\n    )\n    if response.status_code == 200:\n        return json.loads(response.content)\n    else:\n        return None\n\n\nrepos = search_github_repos(\"python\")\nif repos is not None:\n    print(\"Top 5 repositories sorted by stars:\")\n    for i, repo in enumerate(repos[\"items\"][:5]):\n        print(f\"{i+1}. {repo['name']} with {repo['stargazers_count']} stars\")\nelse:\n    print(\"Failed to fetch repositories.\")\n\nTop 5 repositories sorted by stars:\n1. system-design-primer with 248497 stars\n2. awesome-python with 200442 stars\n3. tensorflow with 181209 stars\n4. Python with 176402 stars\n5. CS-Notes with 171136 stars\n\n\n/opt/hostedtoolcache/Python/3.11.8/x64/lib/python3.11/site-packages/urllib3/connectionpool.py:1103: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.github.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings\n  warnings.warn(\n\n\n\n\n更好的抽象\n参照《Python工匠》第7章7.3.2 (一个函数只包含一层抽象)"
-  },
-  {
-    "objectID": "links.html",
-    "href": "links.html",
-    "title": "Links",
-    "section": "",
-    "text": "Python and LLMs\nSimon Willison’s blog\n\n\nR\n\n\nEnglish\n\n\nQuarto\nI want to have blog section within this website and here is a reference:\n\nfrom Quarto Gallery\nGithub"
+    "text": "Top 5 repos using {keyword} search\n\nimport requests\nimport json\n\n\ndef search_github_repos(keyword):\n    url = (\n        f\"https://api.github.com/search/repositories?q={keyword}&sort=stars&order=desc\"\n    )\n    response = requests.get(\n        url,\n        verify=False,\n    )\n    if response.status_code == 200:\n        return json.loads(response.content)\n    else:\n        return None\n\n\nrepos = search_github_repos(\"python\")\nif repos is not None:\n    print(\"Top 5 repositories sorted by stars:\")\n    for i, repo in enumerate(repos[\"items\"][:5]):\n        print(f\"{i+1}. {repo['name']} with {repo['stargazers_count']} stars\")\nelse:\n    print(\"Failed to fetch repositories.\")\n\n/opt/hostedtoolcache/Python/3.11.8/x64/lib/python3.11/site-packages/urllib3/connectionpool.py:1103: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.github.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings\n  warnings.warn(\n\n\nTop 5 repositories sorted by stars:\n1. system-design-primer with 251034 stars\n2. awesome-python with 203196 stars\n3. tensorflow with 182042 stars\n4. Python with 177364 stars\n5. CS-Notes with 171812 stars\n\n\n\n\nTop 5 repos using {keyword} search - with params\n\nimport requests\nimport json\n\n\ndef search_github_repos(keyword):\n    url = \"https://api.github.com/search/repositories\"\n    params = {\"q\": keyword, \"sort\": \"stars\", \"order\": \"desc\"}\n    response = requests.get(\n        url,\n        params=params,\n        verify=False,\n    )\n    if response.status_code == 200:\n        return json.loads(response.content)\n    else:\n        return None\n\n\nrepos = search_github_repos(\"python\")\nif repos is not None:\n    print(\"Top 5 repositories sorted by stars:\")\n    for i, repo in enumerate(repos[\"items\"][:5]):\n        print(f\"{i+1}. {repo['name']} with {repo['stargazers_count']} stars\")\nelse:\n    print(\"Failed to fetch repositories.\")\n\nTop 5 repositories sorted by stars:\n1. system-design-primer with 251034 stars\n2. awesome-python with 203196 stars\n3. tensorflow with 182042 stars\n4. Python with 177364 stars\n5. CS-Notes with 171812 stars\n\n\n/opt/hostedtoolcache/Python/3.11.8/x64/lib/python3.11/site-packages/urllib3/connectionpool.py:1103: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.github.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings\n  warnings.warn(\n\n\n\n\n更好的抽象\n参照《Python工匠》第7章7.3.2 (一个函数只包含一层抽象)"
   },
   {
     "objectID": "blog.html",
@@ -28,6 +21,13 @@
     "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\nMar 10, 2024\n\n\nGithub API and functions\n\n\n\n\nMar 9, 2024\n\n\n随想\n\n\n\n\nMar 5, 2024\n\n\nLearn python OOP 01\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Links",
+    "section": "",
+    "text": "Python and LLMs\nSimon Willison’s blog\n\n\nR\n\n\nEnglish\n\n\nQuarto\nI want to have blog section within this website and here is a reference:\n\nfrom Quarto Gallery\nGithub\n\n\n\nTypeScript\nhttps://www.learn-ts.org/\n\n\nC++\nhttps://learnmoderncpp.com/"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "SkillStack",
@@ -35,11 +35,11 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "blog/python_OOP_01.html",
+    "href": "blog/python_OOP_01.html",
+    "title": "Learn python OOP 01",
     "section": "",
-    "text": "About this site\n\n1 + 2\n\n3"
+    "text": "Development Steps\n\nWriting down the objects on paper\nWriting a class for each object\nWriting methods for each class\nCalling the classes and their methods"
   },
   {
     "objectID": "blog/random_thoughts.html",
